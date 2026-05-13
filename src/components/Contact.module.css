@@ -1,0 +1,50 @@
+.section {
+  padding: 6rem 3rem;
+  text-align: center;
+  position: relative; overflow: hidden;
+}
+.glow {
+  position: absolute; width: 600px; height: 400px;
+  background: radial-gradient(ellipse, rgba(124,109,250,0.1) 0%, transparent 70%);
+  top: 50%; left: 50%; transform: translate(-50%,-50%);
+  pointer-events: none;
+}
+.container { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; }
+.label {
+  font-size: 0.68rem; color: var(--accent);
+  letter-spacing: 0.25em; text-transform: uppercase;
+  margin-bottom: 3rem;
+  display: flex; align-items: center; justify-content: center; gap: 1rem;
+}
+.title {
+  font-family: 'Syne', sans-serif; font-weight: 700;
+  font-size: clamp(2rem,4vw,3rem); letter-spacing: -0.03em; margin-bottom: 0.8rem;
+}
+.sub {
+  color: var(--muted); font-size: 0.82rem;
+  max-width: 440px; margin: 0 auto 2rem; line-height: 1.7;
+}
+.email {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(1.2rem,3vw,2rem); font-weight: 700;
+  color: var(--text); display: inline-block;
+  margin-bottom: 2.5rem; letter-spacing: -0.02em;
+  position: relative;
+}
+.email::after {
+  content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+  height: 1px; background: var(--accent);
+  transform: scaleX(0); transition: transform 0.3s;
+}
+.email:hover::after { transform: scaleX(1); }
+.links { display: flex; gap: 1.2rem; justify-content: center; }
+.link {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  border: 1px solid var(--border); border-radius: 4px;
+  color: var(--muted); font-size: 0.72rem;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.link:hover { color: var(--text); border-color: var(--accent); background: rgba(124,109,250,0.06); }
+@media (max-width: 768px) { .section { padding: 4rem 1.5rem; } }
