@@ -66,7 +66,7 @@ export default function Hero() {
             Abdolmalek<br />
             <span className={styles.outline}>Paduka</span>
             <span className={styles.sub}>
-              Software Developer · ITDI
+              Software Developer  ITDI
             </span>
           </h1>
 
@@ -95,7 +95,7 @@ export default function Hero() {
         {/* RIGHT — Photo */}
         <div className={styles.photoWrap}>
           <img
-            src="/portfolio/Avatar/Me.jpg" 
+            src="/portfolio/Avatar/Me.jpg"
             alt="Abdolmalek Paduka"
             className={styles.photo}
           />

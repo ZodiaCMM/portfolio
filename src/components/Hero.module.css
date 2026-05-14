@@ -111,6 +111,7 @@
 }
 
 .heading {
+  background: linear-gradient;
   font-family: 'Syne', sans-serif;
   font-weight: 550;
   font-size: clamp(3.2rem, 8vw, 7rem);
@@ -122,8 +123,22 @@
 }
 
 .outline {
-  color: transparent;
-  -webkit-text-stroke: 1px var(--accent);
+  background: linear-gradient(
+    90deg,
+    var(--accent) 0%,
+    var(--accent2) 50%,
+    var(--accent) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  from { background-position: 0% center; }
+  to   { background-position: 200% center; }
 }
 
 .sub {
