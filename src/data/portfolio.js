@@ -14,36 +14,104 @@ export const STATS = [
   { num: 'AI',  label: 'Intern Experience' },
 ];
 
+// export const SKILL_GROUPS = [
+//   {
+//     icon: 'code',
+//     title: 'Languages',
+//     tags: ['Python', 'Java', 'C', 'HTML', 'CSS', 'MySQL'],
+//   },
+//   {
+//     icon: 'monitor',
+//     title: 'Design & UI',
+//     tags: ['Figma', 'FlutterFlow', 'UX/UI Design', 'Prototyping'],
+//   },
+//   {
+//     icon: 'database',
+//     title: 'Database & Backend',
+//     tags: ['MySQL', 'Firebase', 'phpMyAdmin', 'XAMPP'],
+//   },
+//   {
+//     icon: 'tool',
+//     title: 'Tools & Platforms',
+//     tags: ['Git', 'GitHub', 'NetBeans', 'Excel', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
+//   },
+//   {
+//     icon: 'cpu',
+//     title: 'AI & Emerging Tech',
+//     tags: ['Agentic AI', 'Speech-to-Text', 'QC Automation'],
+//   },
+//   {
+//     icon: 'users',
+//     title: 'Soft Skills',
+//     tags: ['Problem Solving', 'Teamwork', 'Fast Learner', 'Networking'],
+//   },
+// ];
+
 export const SKILL_GROUPS = [
   {
     icon: 'code',
     title: 'Languages',
-    tags: ['Python', 'Java', 'C', 'HTML', 'CSS', 'MySQL'],
+    tags: [
+      { label: 'Python',  skillicon: 'python' },
+      { label: 'Java',    skillicon: 'java' },
+      { label: 'C',       skillicon: 'c' },
+      { label: 'HTML',    skillicon: 'html' },
+      { label: 'CSS',     skillicon: 'css' },
+      { label: 'MySQL',   skillicon: 'mysql' },
+    ],
   },
   {
     icon: 'monitor',
     title: 'Design & UI',
-    tags: ['Figma', 'FlutterFlow', 'UX/UI Design', 'Prototyping'],
+    tags: [
+      { label: 'Figma',        skillicon: 'figma' },
+      { label: 'FlutterFlow',  skillicon: 'flutter' },
+      { label: 'UX/UI Design', skillicon: null },
+      { label: 'Prototyping',  skillicon: null },
+    ],
   },
   {
     icon: 'database',
     title: 'Database & Backend',
-    tags: ['MySQL', 'Firebase', 'phpMyAdmin', 'XAMPP'],
+    tags: [
+      { label: 'MySQL',      skillicon: 'mysql' },
+      { label: 'Firebase',   skillicon: 'firebase' },
+      { label: 'phpMyAdmin', skillicon: null },
+      { label: 'XAMPP',      skillicon: null },
+    ],
   },
   {
     icon: 'tool',
     title: 'Tools & Platforms',
-    tags: ['Git', 'GitHub', 'NetBeans', 'Excel', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
+    tags: [
+      { label: 'Git',        skillicon: 'git' },
+      { label: 'GitHub',     skillicon: 'github' },
+      { label: 'NetBeans',   skillicon: null },
+      { label: 'Excel',      skillicon: null },
+      { label: 'Pandas',     skillicon: 'pandas' },
+      { label: 'NumPy',      skillicon: 'numpy' },
+      { label: 'Matplotlib', skillicon: null },
+      { label: 'Seaborn',    skillicon: null },
+    ],
   },
   {
     icon: 'cpu',
     title: 'AI & Emerging Tech',
-    tags: ['Agentic AI', 'Speech-to-Text', 'QC Automation'],
+    tags: [
+      { label: 'Agentic AI',     skillicon: null },
+      { label: 'Speech-to-Text', skillicon: null },
+      { label: 'QC Automation',  skillicon: null },
+    ],
   },
   {
     icon: 'users',
     title: 'Soft Skills',
-    tags: ['Problem Solving', 'Teamwork', 'Fast Learner', 'Networking'],
+    tags: [
+      { label: 'Problem Solving', skillicon: null },
+      { label: 'Teamwork',        skillicon: null },
+      { label: 'Fast Learner',    skillicon: null },
+      { label: 'Networking',      skillicon: null },
+    ],
   },
 ];
 
