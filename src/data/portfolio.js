@@ -198,23 +198,23 @@ export const EDUCATION = [
 
 export const PROJECT_SLIDES = [
   {
-    image: 'E:\\Dev Project\\web port\\portfolio\\public\\projects\\Coop.JPG',
+    image: '/portfolio/projects/Coop.JPG',
     title: 'Agentic AI for QC Reward',
   },
   {
-    image: 'E:\Dev Project\web port\portfolio\public\projects\Flutter.png',
+    image: '/portfolio/projects/flutterflow.png',
     title: 'FlutterFlow Prototype',
   },
   {
-    image: 'E:\\Dev Project\\web port\\portfolio\\public\\projects\\Fluter 2.png',
-    title: 'FlutterFlow Prototype',
+    image: '/portfolio/projects/flutterflow2.png',
+    title: 'FlutterFlow Prototype 2',
   },
   {
-    image: 'E:\Dev Project\web port\portfolio\public\projects\Project Youtube.png',
+    image: '/portfolio/projects/ProjectYoutube.png',
     title: 'Youtube',
   },
   {
-    image: 'E:\Dev Project\web port\portfolio\public\projects\ProjectTraffic.jpg',
+    image: '/portfolio/projects/ProjectTraffic.jpg',
     title: 'Traffic Light Control System',
   },
 ];
