@@ -52,32 +52,6 @@ During my cooperative education at **CHUBB**, I worked on an Agentic AI system f
 
 ---
 
-## 📁 Project Structure
-react-portfolio/
-├── public/
-│   └── Avatar/
-│       └── Me.jpg          
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx / .module.css
-│   │   ├── Hero.jsx / .module.css
-│   │   ├── About.jsx / .module.css
-│   │   ├── Skills.jsx / .module.css
-│   │   ├── Experience.jsx / .module.css
-│   │   ├── Projects.jsx / .module.css
-│   │   ├── Education.jsx / .module.css
-│   │   ├── Contact.jsx / .module.css
-│   │   └── Footer.jsx / .module.css
-│   ├── data/
-│   │   └── portfolio.js     
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── vite.config.js
-└── package.json
-
----
-
 ## 🚀 Getting Started
 
 ```bash
