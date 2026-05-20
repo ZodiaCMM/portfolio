@@ -1,6 +1,6 @@
 .section {
   padding: 6rem 3rem;
-  background: var(--bg);
+  background: var(--surface);
   position: relative;
   overflow: hidden;
 }
@@ -10,7 +10,7 @@
   content: '';
   position: absolute;
   width: 600px; height: 600px;
-  background: radial-gradient(circle, rgba(124,109,250,0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 17, 255, 0.06) 0%, transparent 70%);
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -185,8 +185,8 @@
   color: var(--accent);
   font-weight: 600;
 }
-.counterSep { color: var(--border); }
-
+.counterSep { color: var(--border);
+}
 @media (max-width: 768px) {
   .section { padding: 4rem 1.5rem; }
   .captionTitle { font-size: 1rem; }
