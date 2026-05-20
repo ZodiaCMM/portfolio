@@ -1,17 +1,17 @@
 export const NAV_LINKS = [
-  { href: '#about',      label: 'About' },
-  { href: '#skills',     label: 'Skills' },
+  { href: '#about', label: 'About' },
+  { href: '#skills', label: 'Skills' },
   { href: '#experience', label: 'Experience' },
-  { href: '#projects',   label: 'Projects' },
-  { href: '#education',  label: 'Education' },
-  { href: '#contact',    label: 'Contact' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#education', label: 'Education' },
+  { href: '#contact', label: 'Contact' },
 ];
 
 export const STATS = [
-  { num: '6+',  label: 'Projects Completed' },
+  { num: '6+', label: 'Projects Completed' },
   { num: '10+', label: 'Technologies Used' },
-  { num: '2026',label: 'Expected Graduation' },
-  { num: 'AI',  label: 'Intern Experience' },
+  { num: '2026', label: 'Expected Graduation' },
+  { num: 'AI', label: 'Intern Experience' },
 ];
 
 // export const SKILL_GROUPS = [
@@ -52,55 +52,55 @@ export const SKILL_GROUPS = [
     icon: 'code',
     title: 'Languages',
     tags: [
-      { label: 'Python',  skillicon: 'python' },
-      { label: 'Java',    skillicon: 'java' },
-      { label: 'C',       skillicon: 'c' },
-      { label: 'HTML',    skillicon: 'html' },
-      { label: 'CSS',     skillicon: 'css' },
-      { label: 'MySQL',   skillicon: 'mysql' },
+      { label: 'Python', skillicon: 'python' },
+      { label: 'Java', skillicon: 'java' },
+      { label: 'C', skillicon: 'c' },
+      { label: 'HTML', skillicon: 'html' },
+      { label: 'CSS', skillicon: 'css' },
+      { label: 'MySQL', skillicon: 'mysql' },
     ],
   },
   {
     icon: 'monitor',
     title: 'Design & UI',
     tags: [
-      { label: 'Figma',        skillicon: 'figma' },
-      { label: 'FlutterFlow',  skillicon: 'flutter' },
+      { label: 'Figma', skillicon: 'figma' },
+      { label: 'FlutterFlow', skillicon: 'flutter' },
       { label: 'UX/UI Design', skillicon: null },
-      { label: 'Prototyping',  skillicon: null },
+      { label: 'Prototyping', skillicon: null },
     ],
   },
   {
     icon: 'database',
     title: 'Database & Backend',
     tags: [
-      { label: 'MySQL',      skillicon: 'mysql' },
-      { label: 'Firebase',   skillicon: 'firebase' },
+      { label: 'MySQL', skillicon: 'mysql' },
+      { label: 'Firebase', skillicon: 'firebase' },
       { label: 'phpMyAdmin', skillicon: null },
-      { label: 'XAMPP',      skillicon: null },
+      { label: 'XAMPP', skillicon: null },
     ],
   },
   {
     icon: 'tool',
     title: 'Tools & Platforms',
     tags: [
-      { label: 'Git',        skillicon: 'git' },
-      { label: 'GitHub',     skillicon: 'github' },
-      { label: 'NetBeans',   skillicon: null },
-      { label: 'Excel',      skillicon: null },
-      { label: 'Pandas',     skillicon: 'pandas' },
-      { label: 'NumPy',      skillicon: 'numpy' },
+      { label: 'Git', skillicon: 'git' },
+      { label: 'GitHub', skillicon: 'github' },
+      { label: 'NetBeans', skillicon: null },
+      { label: 'Excel', skillicon: null },
+      { label: 'Pandas', skillicon: 'pandas' },
+      { label: 'NumPy', skillicon: 'numpy' },
       { label: 'Matplotlib', skillicon: null },
-      { label: 'Seaborn',    skillicon: null },
+      { label: 'Seaborn', skillicon: null },
     ],
   },
   {
     icon: 'cpu',
     title: 'AI & Emerging Tech',
     tags: [
-      { label: 'Agentic AI',     skillicon: null },
+      { label: 'Agentic AI', skillicon: null },
       { label: 'Speech-to-Text', skillicon: null },
-      { label: 'QC Automation',  skillicon: null },
+      { label: 'QC Automation', skillicon: null },
     ],
   },
   {
@@ -108,9 +108,9 @@ export const SKILL_GROUPS = [
     title: 'Soft Skills',
     tags: [
       { label: 'Problem Solving', skillicon: null },
-      { label: 'Teamwork',        skillicon: null },
-      { label: 'Fast Learner',    skillicon: null },
-      { label: 'Networking',      skillicon: null },
+      { label: 'Teamwork', skillicon: null },
+      { label: 'Fast Learner', skillicon: null },
+      { label: 'Networking', skillicon: null },
     ],
   },
 ];
@@ -193,5 +193,28 @@ export const EDUCATION = [
     school: 'Arunsat Wittaya Foundation School',
     field: 'Science and Mathematics Stream',
     period: '2019 – 2021',
+  },
+];
+
+export const PROJECT_SLIDES = [
+  {
+    image: 'E:\\Dev Project\\web port\\portfolio\\public\\projects\\Coop.JPG',
+    title: 'Agentic AI for QC Reward',
+  },
+  {
+    image: 'E:\Dev Project\web port\portfolio\public\projects\Flutter.png',
+    title: 'FlutterFlow Prototype',
+  },
+  {
+    image: 'E:\\Dev Project\\web port\\portfolio\\public\\projects\\Fluter 2.png',
+    title: 'FlutterFlow Prototype',
+  },
+  {
+    image: 'E:\Dev Project\web port\portfolio\public\projects\Project Youtube.png',
+    title: 'Youtube',
+  },
+  {
+    image: 'E:\Dev Project\web port\portfolio\public\projects\ProjectTraffic.jpg',
+    title: 'Traffic Light Control System',
   },
 ];
