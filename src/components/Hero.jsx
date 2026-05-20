@@ -101,11 +101,6 @@ export default function Hero() {
           />
         </div>
       </div>
-
-      <div className={styles.scrollHint}>
-        <div className={styles.scrollLine} />
-        scroll
-      </div>
     </section>
   );
 }
