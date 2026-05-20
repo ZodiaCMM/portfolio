@@ -5,7 +5,7 @@ export default function Education() {
   return (
     <section id="education" className={styles.section}>
       <div className={styles.container}>
-        <div className={styles.label}>05 — Education</div>
+        <div className={styles.label}>06 — Education</div>
         <h2 className={`${styles.title} reveal`}>Academic Background</h2>
         <p className={`${styles.sub} reveal`}>Where my journey in technology began.</p>
         <div className={styles.grid}>

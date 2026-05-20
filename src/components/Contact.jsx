@@ -5,7 +5,6 @@ export default function Contact() {
     <section id="contact" className={styles.section}>
       <div className={styles.glow} />
       <div className={styles.container}>
-        <div className={styles.label}>06 — Contact</div>
         <h2 className={`${styles.title} reveal`}>Let's Build Something</h2>
         <p className={`${styles.sub} reveal`}>
           Open to internships, part-time roles, and collaborative projects.
