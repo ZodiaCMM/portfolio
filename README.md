@@ -2,7 +2,7 @@
 
 # Abdolmalek Paduka
 
-**Software Developer · ITDI · Songkhla Rajabhat University**
+**Software Developer · ITDI ·**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-7c6dfa?style=for-the-badge&logo=vercel&logoColor=white)](https://zodiacmm.github.io/portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-ZodiaCMM-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZodiaCMM)

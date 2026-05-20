@@ -95,7 +95,7 @@ export default function Hero() {
         {/* RIGHT — Photo */}
         <div className={styles.photoWrap}>
           <img
-            src="/Avatar/Me.JPG"
+            src="/portfolio/Avatar/Me.JPG"
             alt="Abdolmalek Paduka"
             className={styles.photo}
           />
